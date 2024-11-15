@@ -4602,7 +4602,7 @@ class Physics:
             po.ovarre(
                 self.outfile,
                 "Psep Bt / qAR ratio (MWT/m)",
-                "(pdivtbt/qar)",
+                "(pdivtbt_over_qar)",
                 (
                     (physics_variables.pdivt * physics_variables.bt)
                     / (
